@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>login form</h1>
+    <form action="./server.html" method="get">
+    <p>
+    <label form="un"></label>
+    <input type="text" name="username" id="un">
+    </p>
+    <p>
+    <label form="pass"></label>
+    <input type="password" name="password" id="pass">
+    </p>
+    <p>
+        <input type="radio" id="r">
+
+
+    
+    </p>
+    <p><button type="submit">submit</button></p>
+    </form>
+    <hr>
+    <form action="./server.html" method="get">
+    
+<h3>school quiz</h3>
+   <p> 
+
+    <input type="checkbox" name="service" value="answer 1" id="ans1"> <label for="ans1">ANSWER 1</label>
+    <br>
+    <input type="checkbox" name="service" value="answer2" id="ans2">  <label for="ans2">ANSWER 2</label>
+    <br>
+    <input type="checkbox" name="service" value="answer3" id="ans3"> <label for="ans3">ANSWER 3</label>
+   </p>
+   <p><button type="submit">submit</button></p>
+    </form>
+    <hr>
+    <form action="./server.html" method="get">
+   <h3>school quiz 2</h3>
+   <p> 
+    <label for="question">Choose a answer:</label>
+    <select id="cars" name="question" size="4" multiple>
+      <option value="answer 1">answer 1</option>
+      <option value="answer 2">answer 2</option>
+      <option value="answer 3">answer 3</option>
+      <option value="answer 4">answer 4</option>
+    </select>
+    
+   </p>
+   <p>
+    <textarea name="odgovor" cols="20" rows="4" placeholder="odgovor"></textarea>
+
+   </p>
+
+    <p><button type="submit">submit</button></p>
+    <p>please select your favorite genre:
+        <br/>
+        <input type="radio" name="genre" value="rock "/> Rock
+        <input type="radio" name="genre" value="pop"/> Pop
+        <input type="radio" name="genre" value="jazz"/> Jazz
+    </p>
+    
+    </form>
+
+    
+    
+    <form action="./server.html" method="post">
+        <p>Upload your song in MP3 format</p>
+        <input type="file" name="user song">
+        
+        <br>
+
+        <input type="submit" value="Upload">
+
+
+
+    </form>
+    <form action="http://www.exsample.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email"/>
+        <input type="submit" name="subscribe" value="Subscribe"/>
+
+    </form>
+    <br>
+    
+    
+    <form action="/action_page.php">
+    Email: <input type="text" name="email">
+
+
+    <br>
+
+    Pin: <input type="text" name="pin" maxlength="5">
+
+
+    <br>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    <br>
+    <label> Age: <input type="text" name="age"></label>
+
+    <br>
+
+    Gender:
+    <input id="female" type="radio" name="gender" value="f">
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="m">
+    <label for="male">Male</label>
+    <p><button type="submit">submit</button></p>
+
+
+    </form>
+    <fieldset>
+        <legend>Contact details</legend>
+        <label>
+            Email: <br>
+            <input type="text" name="email">
+        </label>
+        <br>
+        <label>Mobile: <br>
+            <input type="text" name="mobile">
+
+        </label>
+  
+
+        <br>
+
+        <label>
+            Telephone: <br/>
+            <input type="text" name="telephone">
+
+        </label>
+    </fieldset>
+    
+
+
+    
+
+
+    
+</body>
+</html>
