@@ -1,0 +1,42 @@
+
+body {
+    font-weight: 100
+    ;
+}
+
+
+#firstparagraph {
+    @font-face {
+        font-family: "static";
+        src: url(./static/DancingScript-Bold.ttf);
+        
+        
+        
+    };
+    text-transform: uppercase;
+    text-decoration:underline;
+    letter-spacing: 5px;
+    text-align: left;
+}
+#secondparagraph {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+    
+}
+
+
+
+#thirdparagraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#span {
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+
+
+}

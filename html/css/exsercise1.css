@@ -1,0 +1,15 @@
+#paragraph1 {
+    background-color: blue;
+    color: rgb(0, 209, 3);
+    opacity: 50%;
+    
+}
+#paragraph2 { background-color:rgba(255, 2, 0, 0.5);
+    
+    color: rgb(0, 206, 209);
+
+}
+
+#paragraph3
+{ background-color: aquamarine;
+color:  #d10000;}
