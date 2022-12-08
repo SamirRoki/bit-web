@@ -1,0 +1,26 @@
+.container {
+    height: 50vh;
+    width: 50vh;
+    background-color: blue;
+    grid-template-columns: 50px fr1 50px;
+    
+   
+
+}
+
+
+.item1 {
+    background-color: aqua;
+}
+.item2 {
+    background-color: red;
+}
+.item3 {
+    background-color: green;
+}
+.item4 {
+    background-color: red;
+}
+.item5 { 
+    background-color: orange;
+}

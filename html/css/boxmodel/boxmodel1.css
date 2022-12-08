@@ -1,0 +1,26 @@
+#div1  {
+    background-color: yellow;
+    border: thick;
+    border-radius: 5px;
+    border-color: red;
+    padding: 50px;
+    margin: 50px;
+    
+
+}
+#div2{
+    background-color: yellow;
+    border: thick ;
+    border-radius: 5px;
+    padding-top: 50px;
+
+
+    border-color: green;
+}
+#div3 {
+    background-color: yellow;
+    border: thick;
+    border-color: red;
+    border-radius: 5px;
+    padding: 50px;
+}
